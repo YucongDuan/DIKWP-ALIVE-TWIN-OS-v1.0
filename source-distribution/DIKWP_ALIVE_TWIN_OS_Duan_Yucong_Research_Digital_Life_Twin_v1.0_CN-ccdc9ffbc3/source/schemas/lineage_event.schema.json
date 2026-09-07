@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LineageEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "timestamp",
+    "event_type",
+    "subject_id",
+    "parent_hash",
+    "payload_hash",
+    "approved_by"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "ingest",
+        "supersede",
+        "retract",
+        "fork",
+        "merge",
+        "release",
+        "archive"
+      ]
+    },
+    "subject_id": {
+      "type": "string"
+    },
+    "parent_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "payload_hash": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

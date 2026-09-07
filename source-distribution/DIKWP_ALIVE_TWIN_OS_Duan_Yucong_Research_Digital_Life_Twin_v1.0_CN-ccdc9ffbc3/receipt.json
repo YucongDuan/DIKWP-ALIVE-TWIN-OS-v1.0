@@ -1,0 +1,280 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:13:21.499814+00:00",
+  "source": {
+    "archive_path": "DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN.zip",
+    "archive_bytes": 1361895,
+    "sha256": "617134849d08405badb7746f9d9fef19d2bfe8f590c02708804c38a29e093cf7",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-ALIVE-TWIN-OS-v1.0/7662bae3bd9ea617c063ab64e618534fc9cd4951/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN-ccdc9ffbc3",
+  "unwrapped_directory": "DIKWP_ALIVE_TWIN_OS_v1.0_CN",
+  "project_marker_directories": [
+    "."
+  ],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [],
+  "files": [
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/CITATION.cff",
+      "output_path": "source/CITATION.cff",
+      "kind": "file",
+      "bytes": 567,
+      "sha256": "9c9633b40c69d30344b8c408fdcbf68adb3c4f886e338147ee6e8bb41fe7a43e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/LICENSE",
+      "output_path": "source/LICENSE",
+      "kind": "file",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/MANIFEST.json",
+      "output_path": "source/MANIFEST.json",
+      "kind": "file",
+      "bytes": 4268,
+      "sha256": "6f0d7b9d285a83b7a619773c43d27335d4adf2caa307f2c13cb3d27232434571",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/QUICKSTART_CN.md",
+      "output_path": "source/QUICKSTART_CN.md",
+      "kind": "file",
+      "bytes": 1281,
+      "sha256": "f9a5ed3dbe5fea72a9ac90719e83c213bc58592d84098598556679ce1a7c503f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/README.md",
+      "output_path": "source/README.md",
+      "kind": "file",
+      "bytes": 1451,
+      "sha256": "921a3eee53f475dd932de96da8494e84c6cc8b7f6a156a18064156ef5164fd7c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/SHA256SUMS",
+      "output_path": "source/SHA256SUMS",
+      "kind": "file",
+      "bytes": 2451,
+      "sha256": "d0cb698422922900b1e62aac6181940b63320cf85a6a0c6b530f935d9e6c20c8",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/VALIDATION_REPORT.json",
+      "output_path": "source/VALIDATION_REPORT.json",
+      "kind": "file",
+      "bytes": 4063,
+      "sha256": "5f64b4f3069f6710e1aa8c6de1d894ee3aa4e1c865536c87ad9b9c2acbc6362b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/VERSION",
+      "output_path": "source/VERSION",
+      "kind": "file",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/assets/architecture_cn.png",
+      "output_path": "source/assets/architecture_cn.png",
+      "kind": "file",
+      "bytes": 278026,
+      "sha256": "630a6e82ac9c9d0f4d5426505749b6f921279777300f6f7a31f19dbe9e8c3871",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/assets/life_cycle_cn.png",
+      "output_path": "source/assets/life_cycle_cn.png",
+      "kind": "file",
+      "bytes": 231837,
+      "sha256": "d67d71499e5bceb48acbc9976b1e024f3af8dd1f82e52f2392ff16c85c4addad",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/assets/twin_layers_cn.png",
+      "output_path": "source/assets/twin_layers_cn.png",
+      "kind": "file",
+      "bytes": 238134,
+      "sha256": "48d315f08ead135ddde3b8f56afd9d77b7f0ede0e199e7d240e7f8bb6f99aaf1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/config/default_policy.json",
+      "output_path": "source/config/default_policy.json",
+      "kind": "file",
+      "bytes": 984,
+      "sha256": "27ee4beb1185cdee5b924f4da6436d3a67b6687f00fadf1c88baa455e68eb1e7",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/data/sample_corpus.json",
+      "output_path": "source/data/sample_corpus.json",
+      "kind": "file",
+      "bytes": 9198,
+      "sha256": "abc71fb876a669c36aa647a5b778b72afd6ce3081cb1f1212da3a663f1f69a2f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/docs/段玉聪_DIKWP-ALIVE_TWIN_OS_科研数字生命人工意识与证据孪生系统_v1.0_CN_最终版.docx",
+      "output_path": "source/docs/段玉聪_DIKWP-ALIVE_TWIN_OS_科研数字生命人工意识与证据孪生系统_v1.0_CN_最终版.docx",
+      "kind": "file",
+      "bytes": 710603,
+      "sha256": "03379c37305630952e692d34929a29d0bcdbf338f5f28552fd4c6f010fca762f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/examples/demo_result.json",
+      "output_path": "source/examples/demo_result.json",
+      "kind": "file",
+      "bytes": 11167,
+      "sha256": "e62e04ad2b4cac6e6c5f5c90b54c52a30962335af6fcf746e9a916c336740553",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/prototype/index.html",
+      "output_path": "source/prototype/index.html",
+      "kind": "file",
+      "bytes": 17364,
+      "sha256": "a5cd9ab5166070017b732ca9d8159d85f4b40751ac6f2c97053f81ac34ce234d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/references/SOURCE_SNAPSHOT_CN.md",
+      "output_path": "source/references/SOURCE_SNAPSHOT_CN.md",
+      "kind": "file",
+      "bytes": 5555,
+      "sha256": "fcee3788cd79b8fd848ec9a4e71aa8587771beeb212aac4d243aeee2a07b7b8f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/references/source_snapshot.json",
+      "output_path": "source/references/source_snapshot.json",
+      "kind": "file",
+      "bytes": 6765,
+      "sha256": "eac7344bee6a5383e7e25aa40fa66eafbc1069a6934483a5626b1ff5ba0a427f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/runtime/alive_twin_runtime.py",
+      "output_path": "source/runtime/alive_twin_runtime.py",
+      "kind": "file",
+      "bytes": 13759,
+      "sha256": "912021cf37c28fb6bfdc15fca773edc020639cd61e91ce06ca2a817c15297fcd",
+      "original_mode": "0o100755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/schemas/artifact_card.schema.json",
+      "output_path": "source/schemas/artifact_card.schema.json",
+      "kind": "file",
+      "bytes": 1237,
+      "sha256": "fe9c9e1c9a3aa30960274e8ec840bbae03af140962bfaf9c8c0b82b6d95553ab",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/schemas/claim_gene.schema.json",
+      "output_path": "source/schemas/claim_gene.schema.json",
+      "kind": "file",
+      "bytes": 683,
+      "sha256": "d6f15cc0f3fbfc614c4b43bf7bc0d2ce17627ac418d16ab2811ab82672084221",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/schemas/experiment_card.schema.json",
+      "output_path": "source/schemas/experiment_card.schema.json",
+      "kind": "file",
+      "bytes": 853,
+      "sha256": "da9d9ae15f6dc5626547ffbe81adb57593b4dfbead33db43640c3743e9fdf1de",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/schemas/hypothesis_cell.schema.json",
+      "output_path": "source/schemas/hypothesis_cell.schema.json",
+      "kind": "file",
+      "bytes": 785,
+      "sha256": "47704f8f9443ae1d52256937071b0d47dd0dbd0fa1b25bda1732415ed0a6c1fa",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/schemas/lineage_event.schema.json",
+      "output_path": "source/schemas/lineage_event.schema.json",
+      "kind": "file",
+      "bytes": 843,
+      "sha256": "b80c2c9923ac99a11ffc3bd6e8f1c80075c5c799c42cc16c1affe3964e5b379a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/schemas/purpose_contract.schema.json",
+      "output_path": "source/schemas/purpose_contract.schema.json",
+      "kind": "file",
+      "bytes": 855,
+      "sha256": "57fb21f5a9644b24a85d34ee3c2c9123f445a0388001af64a7a01aa115d7cfce",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/schemas/twin_state.schema.json",
+      "output_path": "source/schemas/twin_state.schema.json",
+      "kind": "file",
+      "bytes": 767,
+      "sha256": "94057e2cf0fff2fb55b03eb7c505083bca7d07dc75358119262d586b6c49b8ee",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_ALIVE_TWIN_OS_v1.0_CN/tests/test_runtime.py",
+      "output_path": "source/tests/test_runtime.py",
+      "kind": "file",
+      "bytes": 2165,
+      "sha256": "13971b191e0d07b5a8ef4105dcd4f2d110c2e60c924211f887d1b779247e09c0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}

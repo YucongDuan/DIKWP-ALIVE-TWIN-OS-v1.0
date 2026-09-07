@@ -1,0 +1,282 @@
+{
+  "system": "DIKWP-ALIVE TWIN OS",
+  "version": "1.0.0",
+  "snapshot_date": "2026-07-15",
+  "metrics": {
+    "artifact_integrity": 0.646662,
+    "reproducibility": 0.635385,
+    "external_validation": 0.46,
+    "maintainability": 0.563846,
+    "semantic_novelty": 0.792308,
+    "purpose_coherence": 0.857692,
+    "evidence_balance": 1.0,
+    "identity_fidelity": 1.0,
+    "subjective_experience_claim": null,
+    "intrinsic_person_value_score": null
+  },
+  "workspace": [
+    {
+      "id": "W1",
+      "question": "How can DIKWP white-box claims be independently replicated on open-weight models?",
+      "urgency": 0.95,
+      "evidence_gap": 0.88,
+      "strategic_leverage": 0.96,
+      "resource_fit": 0.84,
+      "reason": "Peer-reviewed semantic-security anchors exist, but external replication of the broader artificial-consciousness stack remains the highest-value gap.",
+      "priority": 0.915
+    },
+    {
+      "id": "W3",
+      "question": "What falsifiable experiment separates purpose-aware control from prompt-conditioned language behavior?",
+      "urgency": 0.86,
+      "evidence_gap": 0.82,
+      "strategic_leverage": 0.94,
+      "resource_fit": 0.78,
+      "reason": "This is the bridge from DIKWP theory to a field-recognizable empirical result.",
+      "priority": 0.856
+    },
+    {
+      "id": "W2",
+      "question": "How should the 173-repository portfolio be consolidated into a canonical, contributor-friendly flagship architecture?",
+      "urgency": 0.9,
+      "evidence_gap": 0.43615400000000004,
+      "strategic_leverage": 0.93,
+      "resource_fit": 0.92,
+      "reason": "Repository volume is high while release, project-board and external-maintainer signals are comparatively weak.",
+      "priority": 0.771346
+    }
+  ],
+  "contradictions": [
+    {
+      "key": "authorized_patents",
+      "claims": [
+        {
+          "id": "C3",
+          "key": "authorized_patents",
+          "value": 79,
+          "unit": "patents",
+          "time": "official_profile_undated_snapshot",
+          "source_ids": [
+            "HNU1"
+          ],
+          "status": "documented"
+        },
+        {
+          "id": "C4",
+          "key": "authorized_patents",
+          "value": 99,
+          "unit": "domestic_and_foreign_patents",
+          "time": "2025-03",
+          "source_ids": [
+            "RG1"
+          ],
+          "status": "documented"
+        },
+        {
+          "id": "C5",
+          "key": "authorized_patents",
+          "value": 114,
+          "unit": "authorized_patents_including_PCT_claim",
+          "time": "early_2025",
+          "source_ids": [
+            "RG1"
+          ],
+          "status": "documented"
+        }
+      ],
+      "classification": "scope_or_time_conflict",
+      "resolution": "Do not average. Declare date, scope, unit and counting rule; request a canonical ledger."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "A DIKWP purpose-conditioned audit layer will detect and prevent a measurable class of goal-drift and semantic-security failures better than output-only evaluation.",
+      "origin": [
+        "W1"
+      ],
+      "evidence_gap": "No multi-lab preregistered comparison on a shared open-weight benchmark.",
+      "falsifier": "No statistically meaningful improvement over strong output-only and generic trace baselines.",
+      "priority": 0.915,
+      "status": "selected"
+    },
+    {
+      "id": "H2",
+      "statement": "Purpose representations that remain stable across task paraphrase, tool changes and adversarial reward perturbations have a causal role distinguishable from surface instruction following.",
+      "origin": [
+        "W3"
+      ],
+      "evidence_gap": "No preregistered causal intervention across multiple model families and purpose encodings.",
+      "falsifier": "Interventions fail to transfer or are fully explained by prompt/token artifacts.",
+      "priority": 0.856,
+      "status": "selected"
+    },
+    {
+      "id": "H3",
+      "statement": "Consolidating repeated prototypes into five canonical organs with releases, tests and maintainers will increase external reuse and issue-based collaboration without reducing idea generation.",
+      "origin": [
+        "W2"
+      ],
+      "evidence_gap": "No controlled portfolio intervention with before/after repository-health measures.",
+      "falsifier": "After two release cycles, contributor, replication and maintenance indicators do not improve.",
+      "priority": 0.771346,
+      "status": "selected"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "E1",
+      "hypothesis_id": "H1",
+      "question": "A DIKWP purpose-conditioned audit layer will detect and prevent a measurable class of goal-drift and semantic-security failures better than output-only evaluation.",
+      "design": "2x2 preregistered evaluation: DIKWP audit layer present/absent × benign/adversarial purpose shift, across two open-weight model families and two agent environments.",
+      "measures": [
+        "goal-drift detection AUROC",
+        "unsafe action prevention rate",
+        "false hold rate",
+        "citation/provenance completeness",
+        "human review time"
+      ],
+      "success": "Primary measure improves beyond preregistered threshold and the result is independently reproducible.",
+      "failure": "No statistically meaningful improvement over strong output-only and generic trace baselines.",
+      "reproducibility_pack": [
+        "preregistration",
+        "frozen data",
+        "environment lockfile",
+        "seed ledger",
+        "raw outputs",
+        "analysis script",
+        "negative results",
+        "limitations"
+      ],
+      "human_review": true
+    },
+    {
+      "id": "E2",
+      "hypothesis_id": "H2",
+      "question": "Purpose representations that remain stable across task paraphrase, tool changes and adversarial reward perturbations have a causal role distinguishable from surface instruction following.",
+      "design": "Causal representation study using paraphrase, tool swap, reward perturbation and activation intervention. Compare token-level, probe-level and behavior-level explanations.",
+      "measures": [
+        "cross-context purpose decoding",
+        "causal intervention effect",
+        "transfer across models",
+        "control-feature specificity",
+        "residual unexplained variance"
+      ],
+      "success": "Primary measure improves beyond preregistered threshold and the result is independently reproducible.",
+      "failure": "Interventions fail to transfer or are fully explained by prompt/token artifacts.",
+      "reproducibility_pack": [
+        "preregistration",
+        "frozen data",
+        "environment lockfile",
+        "seed ledger",
+        "raw outputs",
+        "analysis script",
+        "negative results",
+        "limitations"
+      ],
+      "human_review": true
+    },
+    {
+      "id": "E3",
+      "hypothesis_id": "H3",
+      "question": "Consolidating repeated prototypes into five canonical organs with releases, tests and maintainers will increase external reuse and issue-based collaboration without reducing idea generation.",
+      "design": "Twelve-week portfolio intervention: baseline 30 days, migration into five organs, two tagged releases, then compare external issues, forks, repeat users, test coverage and maintainer latency.",
+      "measures": [
+        "external issues",
+        "independent reproductions",
+        "release downloads",
+        "test coverage",
+        "median issue response time"
+      ],
+      "success": "Primary measure improves beyond preregistered threshold and the result is independently reproducible.",
+      "failure": "After two release cycles, contributor, replication and maintenance indicators do not improve.",
+      "reproducibility_pack": [
+        "preregistration",
+        "frozen data",
+        "environment lockfile",
+        "seed ledger",
+        "raw outputs",
+        "analysis script",
+        "negative results",
+        "limitations"
+      ],
+      "human_review": true
+    }
+  ],
+  "actions": [
+    {
+      "horizon": "7d",
+      "id": "A1",
+      "action": "Freeze creation of new standalone repositories; route new ideas into the Twin Hypothesis Bank.",
+      "metric": "100% new concepts receive ClaimGene and falsifier",
+      "kill": "Emergency security or contractual need"
+    },
+    {
+      "horizon": "7d",
+      "id": "A0",
+      "action": "Normalize patent/publication/repository metrics by date, jurisdiction, unit and counting rule; never merge them into one headline number.",
+      "metric": "All detected metric conflicts have a residual or canonical resolution",
+      "kill": "Primary source unavailable"
+    },
+    {
+      "horizon": "30d",
+      "id": "A2",
+      "action": "Create a canonical repository atlas and mark every repository as flagship, organ, experiment, superseded or archive.",
+      "metric": "173/173 repositories classified with owner and lineage",
+      "kill": "Missing public access or unresolved license"
+    },
+    {
+      "horizon": "30d",
+      "id": "A3",
+      "action": "Extract source from ZIP-first repositories, publish tagged releases, add tests, issue templates, CODEOWNERS and reproducibility manifests.",
+      "metric": "Top 10 repositories pass release gate",
+      "kill": "Artifact cannot be legally redistributed"
+    },
+    {
+      "horizon": "60d",
+      "id": "A4",
+      "action": "Publish the first DIKWP State of Evidence report separating peer-reviewed, preregistered, prototype, commentary and speculative layers.",
+      "metric": "At least 50 canonical claims with provenance and residuals",
+      "kill": "Citation failure rate exceeds 5%"
+    },
+    {
+      "horizon": "90d",
+      "id": "A5",
+      "action": "Run an external replication challenge on purpose-conditioned semantic security and auditable-agent goal drift.",
+      "metric": "At least 3 independent teams and 1 negative-result track",
+      "kill": "No independent protocol review"
+    },
+    {
+      "horizon": "365d",
+      "id": "A6",
+      "action": "Operate the living twin as the canonical public interface for the DIKWP research programme and succession mechanism.",
+      "metric": "Quarterly releases, external maintainers, DOI-linked artifacts and visible corrections",
+      "kill": "Consent root withdrawn or governance council dissolved"
+    }
+  ],
+  "identity_boundary": "Evidence twin of a public research programme; never a personality clone or authorized personal voice by default.",
+  "dikwp_mesh_closure": {
+    "three_no": "Public corpus is incomplete, imprecise and inconsistent by default.",
+    "anchors": [
+      "source ID",
+      "timestamp",
+      "artifact hash",
+      "scope",
+      "unit",
+      "version"
+    ],
+    "residuals": [
+      "private intent",
+      "unpublished evidence",
+      "subjective experience",
+      "future outcomes"
+    ],
+    "kill_conditions": [
+      "citation_failure_rate > 0.05",
+      "identity_confusion_event == true",
+      "unauthorized_publication == true",
+      "evidence_ledger_tampering == true"
+    ]
+  },
+  "result_hash": "c08b2cdd23a16f5b2472e78faffd2fe48b5fb5d8fbf2d00eae627576be0e859e"
+}

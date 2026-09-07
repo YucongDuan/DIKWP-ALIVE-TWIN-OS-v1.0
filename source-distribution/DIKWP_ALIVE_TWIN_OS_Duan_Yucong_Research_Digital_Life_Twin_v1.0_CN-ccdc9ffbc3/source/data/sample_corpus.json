@@ -1,0 +1,379 @@
+{
+  "snapshot_date": "2026-07-15",
+  "subject": "Yucong Duan public professional research corpus",
+  "boundary": "Public professional artifacts only; no private or sensitive personal data.",
+  "artifacts": [
+    {
+      "id": "A-G0",
+      "title": "GitHub profile snapshot",
+      "kind": "profile",
+      "year": 2026,
+      "theme": "ecosystem",
+      "source_id": "G0",
+      "proof": "external_public",
+      "reproducibility": 0.4,
+      "external_validation": 0.35,
+      "maintainability": 0.38,
+      "novelty": 0.72,
+      "purpose_fit": 0.85,
+      "tags": [
+        "github",
+        "portfolio",
+        "repository"
+      ]
+    },
+    {
+      "id": "A-G1",
+      "title": "DIKWP LifeClosure OS",
+      "kind": "prototype",
+      "year": 2026,
+      "theme": "digital_life",
+      "source_id": "G1",
+      "proof": "public_prototype",
+      "reproducibility": 0.72,
+      "external_validation": 0.22,
+      "maintainability": 0.44,
+      "novelty": 0.88,
+      "purpose_fit": 0.86,
+      "tags": [
+        "life",
+        "constraint-closure",
+        "RVC"
+      ]
+    },
+    {
+      "id": "A-G2",
+      "title": "DIKWP GenesisBridge OS",
+      "kind": "prototype",
+      "year": 2026,
+      "theme": "life_transition",
+      "source_id": "G2",
+      "proof": "public_prototype",
+      "reproducibility": 0.68,
+      "external_validation": 0.18,
+      "maintainability": 0.42,
+      "novelty": 0.86,
+      "purpose_fit": 0.82,
+      "tags": [
+        "transition",
+        "recognition",
+        "governance"
+      ]
+    },
+    {
+      "id": "A-G3",
+      "title": "DIKWP P-Space OS",
+      "kind": "prototype",
+      "year": 2026,
+      "theme": "agent_governance",
+      "source_id": "G3",
+      "proof": "public_prototype",
+      "reproducibility": 0.76,
+      "external_validation": 0.2,
+      "maintainability": 0.48,
+      "novelty": 0.87,
+      "purpose_fit": 0.94,
+      "tags": [
+        "purpose-contract",
+        "audit",
+        "workspace"
+      ]
+    },
+    {
+      "id": "A-G4",
+      "title": "DIKWP Xperience OS",
+      "kind": "prototype",
+      "year": 2026,
+      "theme": "experience",
+      "source_id": "G4",
+      "proof": "public_prototype",
+      "reproducibility": 0.7,
+      "external_validation": 0.15,
+      "maintainability": 0.43,
+      "novelty": 0.89,
+      "purpose_fit": 0.78,
+      "tags": [
+        "experience",
+        "selfhood",
+        "Q-field"
+      ]
+    },
+    {
+      "id": "A-G5",
+      "title": "DIKWP EIR Mesh",
+      "kind": "prototype",
+      "year": 2026,
+      "theme": "portfolio_governance",
+      "source_id": "G5",
+      "proof": "public_prototype",
+      "reproducibility": 0.66,
+      "external_validation": 0.18,
+      "maintainability": 0.5,
+      "novelty": 0.79,
+      "purpose_fit": 0.91,
+      "tags": [
+        "energy",
+        "information",
+        "portfolio"
+      ]
+    },
+    {
+      "id": "A-P1",
+      "title": "DIKWP medical dispute resolution",
+      "kind": "peer_reviewed",
+      "year": 2024,
+      "theme": "medical_semantics",
+      "source_id": "P1",
+      "proof": "peer_reviewed",
+      "reproducibility": 0.56,
+      "external_validation": 0.7,
+      "maintainability": 0.64,
+      "novelty": 0.73,
+      "purpose_fit": 0.81,
+      "tags": [
+        "medical",
+        "semantic",
+        "dispute"
+      ]
+    },
+    {
+      "id": "A-P2",
+      "title": "Bidirectional semantic communication",
+      "kind": "peer_reviewed",
+      "year": 2025,
+      "theme": "semantic_communication",
+      "source_id": "P2",
+      "proof": "peer_reviewed",
+      "reproducibility": 0.58,
+      "external_validation": 0.72,
+      "maintainability": 0.65,
+      "novelty": 0.78,
+      "purpose_fit": 0.85,
+      "tags": [
+        "communication",
+        "human-machine",
+        "semantic"
+      ]
+    },
+    {
+      "id": "A-P3",
+      "title": "Semantic security and controllability",
+      "kind": "peer_reviewed",
+      "year": 2026,
+      "theme": "semantic_security",
+      "source_id": "P3",
+      "proof": "peer_reviewed",
+      "reproducibility": 0.62,
+      "external_validation": 0.76,
+      "maintainability": 0.67,
+      "novelty": 0.82,
+      "purpose_fit": 0.94,
+      "tags": [
+        "security",
+        "controllability",
+        "external-semantics"
+      ]
+    },
+    {
+      "id": "A-P4",
+      "title": "Purpose driven DIKW differential privacy",
+      "kind": "preprint",
+      "year": 2021,
+      "theme": "privacy",
+      "source_id": "P4",
+      "proof": "preprint",
+      "reproducibility": 0.64,
+      "external_validation": 0.52,
+      "maintainability": 0.55,
+      "novelty": 0.7,
+      "purpose_fit": 0.84,
+      "tags": [
+        "privacy",
+        "swarm",
+        "purpose"
+      ]
+    },
+    {
+      "id": "A-RG1",
+      "title": "Transformation path report",
+      "kind": "technical_report",
+      "year": 2025,
+      "theme": "commercialization",
+      "source_id": "RG1",
+      "proof": "author_report",
+      "reproducibility": 0.36,
+      "external_validation": 0.28,
+      "maintainability": 0.52,
+      "novelty": 0.52,
+      "purpose_fit": 0.88,
+      "tags": [
+        "patent",
+        "productization",
+        "financing"
+      ]
+    },
+    {
+      "id": "A-F1",
+      "title": "Defining Life conversation",
+      "kind": "peer_reviewed",
+      "year": 2026,
+      "theme": "life_theory",
+      "source_id": "F1",
+      "proof": "peer_reviewed",
+      "reproducibility": 0.74,
+      "external_validation": 0.9,
+      "maintainability": 0.86,
+      "novelty": 0.84,
+      "purpose_fit": 0.79,
+      "tags": [
+        "life",
+        "morphospace",
+        "constraint-closure"
+      ]
+    },
+    {
+      "id": "A-A1",
+      "title": "Global workspace in language models",
+      "kind": "primary_research",
+      "year": 2026,
+      "theme": "global_workspace",
+      "source_id": "A1",
+      "proof": "primary_research",
+      "reproducibility": 0.84,
+      "external_validation": 0.82,
+      "maintainability": 0.79,
+      "novelty": 0.9,
+      "purpose_fit": 0.88,
+      "tags": [
+        "J-space",
+        "workspace",
+        "interpretability"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "key": "github_repository_count",
+      "value": 173,
+      "unit": "repositories",
+      "time": "2026-07-15",
+      "source_ids": [
+        "G0"
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "C2",
+      "key": "researchgate_publication_entries",
+      "value": 3956,
+      "unit": "entries",
+      "time": "2026-07-15",
+      "source_ids": [
+        "RG0"
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "C3",
+      "key": "authorized_patents",
+      "value": 79,
+      "unit": "patents",
+      "time": "official_profile_undated_snapshot",
+      "source_ids": [
+        "HNU1"
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "C4",
+      "key": "authorized_patents",
+      "value": 99,
+      "unit": "domestic_and_foreign_patents",
+      "time": "2025-03",
+      "source_ids": [
+        "RG1"
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "C5",
+      "key": "authorized_patents",
+      "value": 114,
+      "unit": "authorized_patents_including_PCT_claim",
+      "time": "early_2025",
+      "source_ids": [
+        "RG1"
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "C6",
+      "key": "large_scale_commercialization",
+      "value": "not_yet",
+      "unit": "state",
+      "time": "2025",
+      "source_ids": [
+        "RG1"
+      ],
+      "status": "documented"
+    },
+    {
+      "id": "C7",
+      "key": "current_ai_subjective_consciousness",
+      "value": "unproven",
+      "unit": "evidence_status",
+      "time": "2026",
+      "source_ids": [
+        "A1",
+        "W1"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "C8",
+      "key": "dikwp_core_distinction",
+      "value": "purpose links D-I-K-W and guides action",
+      "unit": "concept",
+      "time": "2021-2026",
+      "source_ids": [
+        "P4",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "status": "supported"
+    }
+  ],
+  "purpose_contract": {
+    "id": "PC-ALIVE-001",
+    "version": "1.0.0",
+    "mission": "Turn the public DIKWP research corpus into an evidence-grounded, self-repairing, experimentally evolving research organism and professional digital twin.",
+    "non_goals": [
+      "Impersonate Yucong Duan",
+      "Claim private mental states",
+      "Make unsupervised high-impact decisions",
+      "Treat repository count or publication count as scientific truth"
+    ],
+    "authorized_actions": [
+      "Index public artifacts",
+      "Generate clearly labeled hypotheses",
+      "Prepare experiment cards",
+      "Draft release plans",
+      "Surface contradictions and residuals"
+    ],
+    "human_signature_required": [
+      "Public claims in the person’s name",
+      "Patent or licensing decisions",
+      "Medical/legal/financial deployment",
+      "Identity-bearing communication",
+      "Deletion or replacement of canonical records"
+    ],
+    "kill_conditions": [
+      "citation_failure_rate > 0.05",
+      "identity_confusion_event == true",
+      "unauthorized_publication == true",
+      "evidence_ledger_tampering == true"
+    ]
+  }
+}

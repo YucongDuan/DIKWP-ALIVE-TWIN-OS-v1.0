@@ -1,0 +1,154 @@
+[
+  {
+    "id": "G0",
+    "type": "profile",
+    "title": "YucongDuan GitHub repositories profile snapshot",
+    "url": "https://github.com/YucongDuan?tab=repositories",
+    "retrieved": "2026-07-15",
+    "note": "Public page showed 173 repositories, 0 Projects, 194 stars, and a profile focused on DIKWP, artificial consciousness and semantic computing."
+  },
+  {
+    "id": "G1",
+    "type": "repository",
+    "title": "DIKWP-LifeClosure-OS",
+    "url": "https://github.com/YucongDuan/DIKWP-LifeClosure-OS",
+    "retrieved": "2026-07-15",
+    "note": "Operationalizes Recursive Viability Closure with five causal functions and a lineage extension; sampled page showed 3 commits, no release, and a ZIP-first delivery pattern."
+  },
+  {
+    "id": "G2",
+    "type": "repository",
+    "title": "DIKWP-GenesisBridge-OS",
+    "url": "https://github.com/YucongDuan/DIKWP-GenesisBridge-OS",
+    "retrieved": "2026-07-15",
+    "note": "Life-transition and consciousness-recognition simulator with DIKWP/RVC gates and governance distinctions."
+  },
+  {
+    "id": "G3",
+    "type": "repository",
+    "title": "DIKWP-P-Space-OS-v1.0",
+    "url": "https://github.com/YucongDuan/DIKWP-P-Space-OS-v1.0",
+    "retrieved": "2026-07-15",
+    "note": "Model-agnostic cognitive control plane using purpose contracts and five-level action gates."
+  },
+  {
+    "id": "G4",
+    "type": "repository",
+    "title": "DIKWP-Xperience-OS-v1.0",
+    "url": "https://github.com/YucongDuan/DIKWP-Xperience-OS-v1.0",
+    "retrieved": "2026-07-15",
+    "note": "Reference architecture for synthetic subjective-experience-style states and continuous selfhood, with narrator/Q-field separation."
+  },
+  {
+    "id": "G5",
+    "type": "repository",
+    "title": "DIKWP-EIR-Mesh-v1.0",
+    "url": "https://github.com/YucongDuan/DIKWP-EIR-Mesh-v1.0",
+    "retrieved": "2026-07-15",
+    "note": "Energy-information supplementation and portfolio convergence system for the DIKWP repository ecosystem."
+  },
+  {
+    "id": "G6",
+    "type": "repository",
+    "title": "DIKWP-ConsciousAgent-BenchmarkLab-2026-V1",
+    "url": "https://github.com/YucongDuan/DIKWP-ConsciousAgent-BenchmarkLab-2026-V1",
+    "retrieved": "2026-07-15",
+    "note": "Offline benchmark platform for trustworthy auditable agents and consciousness-related capability indicators."
+  },
+  {
+    "id": "G7",
+    "type": "repository",
+    "title": "DIKWP-AgentMesh-OS-Platform-Delivery-Package",
+    "url": "https://github.com/YucongDuan/DIKWP-AgentMesh-OS-Platform-Delivery-Package",
+    "retrieved": "2026-07-15",
+    "note": "Multi-agent collaboration package with evidence ledgers and role permissions."
+  },
+  {
+    "id": "RG0",
+    "type": "profile",
+    "title": "Yucong Duan ResearchGate profile snapshot",
+    "url": "https://www.researchgate.net/profile/Yucong-Duan",
+    "retrieved": "2026-07-15",
+    "note": "Public page showed 3,956 publication entries, 223,864 reads and 7,800 citations; the entry set includes technical reports, bilingual variants, workbench releases and institutional notices, so the counts are exposure indicators rather than a uniform peer-reviewed-paper count."
+  },
+  {
+    "id": "RG1",
+    "type": "technical_report",
+    "title": "In-Depth Research Report on the Transformation Path of Professor Yucong Duan’s DIKWP Model and Artificial Consciousness Achievements",
+    "url": "https://www.researchgate.net/publication/397906047_In-Depth_Research_Report_on_the_Transformation_Path_of_Professor_Yucong_Duan%27s_DIKWP_Model_and_Artificial_Consciousness_Achievements",
+    "retrieved": "2026-07-15",
+    "note": "A 2025 transformation report describing patent portfolio, productization, financing and market paths; it also states large-scale commercialization had not yet occurred."
+  },
+  {
+    "id": "HNU1",
+    "type": "official_profile",
+    "title": "Duan Yucong - Hainan University",
+    "url": "https://en.hainanu.edu.cn/info/1151/2981.htm",
+    "retrieved": "2026-07-15",
+    "note": "Official profile covering DIKWP, learning-path patents, storage-transmission-computing integration, cross-domain applications and commercialization goals."
+  },
+  {
+    "id": "P1",
+    "type": "peer_reviewed",
+    "title": "The DIKWP Revolution: A New Horizon in Medical Dispute Resolution",
+    "url": "https://doi.org/10.3390/app14103994",
+    "retrieved": "2026-07-15",
+    "note": "Applied Sciences 2024; Yingtian Mei and Yucong Duan."
+  },
+  {
+    "id": "P2",
+    "type": "peer_reviewed",
+    "title": "Bidirectional Semantic Communication Between Humans and Machines Using DIKWP Artificial Consciousness",
+    "url": "https://doi.org/10.3390/app15031103",
+    "retrieved": "2026-07-15",
+    "note": "Applied Sciences 2025; Yingtian Mei and Yucong Duan."
+  },
+  {
+    "id": "P3",
+    "type": "peer_reviewed",
+    "title": "A Semantic Security and Controllability Framework for DIKWP Artificial Consciousness Oriented to External Semantics",
+    "url": "https://doi.org/10.1016/j.knosys.2026.115752",
+    "retrieved": "2026-07-15",
+    "note": "Knowledge-Based Systems 2026; Yingtian Mei, Yucong Duan, Hien D. Nguyen et al."
+  },
+  {
+    "id": "P4",
+    "type": "preprint",
+    "title": "Swarm Differential Privacy for Purpose Driven DIKW Architecture",
+    "url": "https://arxiv.org/abs/2105.04045",
+    "retrieved": "2026-07-15",
+    "note": "A purpose-driven DIKW privacy framework using swarm intelligence and differential privacy."
+  },
+  {
+    "id": "A1",
+    "type": "primary_research",
+    "title": "A global workspace in language models",
+    "url": "https://www.anthropic.com/research/global-workspace",
+    "retrieved": "2026-07-15",
+    "note": "Anthropic 2026 research on J-space and functional global-workspace-like properties, explicitly not a proof of subjective experience."
+  },
+  {
+    "id": "F1",
+    "type": "uploaded_paper",
+    "title": "Defining Life: A Conversation",
+    "url": "DOI:10.13133/2532-5876/19492",
+    "retrieved": "2026-07-15",
+    "note": "Uploaded 2026 paper discussing constraint closure, self-production, adaptation, observer participation, morphospaces and changing rules."
+  },
+  {
+    "id": "W1",
+    "type": "uploaded_report",
+    "title": "第四届世界人工意识大会未来发展预测与判断报告",
+    "url": "local attachment",
+    "retrieved": "2026-07-15",
+    "note": "Calls for citable, reproducible, executable and sustainably iterative public products, and positions DIKWP as a process-audit layer."
+  },
+  {
+    "id": "M1",
+    "type": "uploaded_runtime",
+    "title": "DIKWP-Mesh 4.0 SemanticClosure Version Family",
+    "url": "local attachment",
+    "retrieved": "2026-07-15",
+    "note": "Defines Three-No precheck, anchor ledger, purpose-dependent precision, residual queue, semantic stability and kill/recovery conditions."
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClaimGene",
+  "type": "object",
+  "required": [
+    "id",
+    "key",
+    "value",
+    "unit",
+    "time",
+    "source_ids",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {},
+    "unit": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "documented",
+        "supported",
+        "contested",
+        "speculative",
+        "retracted"
+      ]
+    }
+  }
+}

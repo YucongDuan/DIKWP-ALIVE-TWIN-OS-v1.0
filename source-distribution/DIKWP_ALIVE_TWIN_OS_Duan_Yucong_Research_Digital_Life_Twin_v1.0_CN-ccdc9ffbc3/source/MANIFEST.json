@@ -1,0 +1,134 @@
+{
+  "system": "DIKWP-ALIVE TWIN OS",
+  "version": "1.0.0",
+  "generated": "2026-07-15",
+  "packaging_policy": "QA renders and transient caches are excluded from the public package.",
+  "file_count": 25,
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "size": 567,
+      "sha256": "9c9633b40c69d30344b8c408fdcbf68adb3c4f886e338147ee6e8bb41fe7a43e"
+    },
+    {
+      "path": "LICENSE",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "QUICKSTART_CN.md",
+      "size": 1281,
+      "sha256": "f9a5ed3dbe5fea72a9ac90719e83c213bc58592d84098598556679ce1a7c503f"
+    },
+    {
+      "path": "README.md",
+      "size": 1451,
+      "sha256": "921a3eee53f475dd932de96da8494e84c6cc8b7f6a156a18064156ef5164fd7c"
+    },
+    {
+      "path": "VALIDATION_REPORT.json",
+      "size": 4063,
+      "sha256": "5f64b4f3069f6710e1aa8c6de1d894ee3aa4e1c865536c87ad9b9c2acbc6362b"
+    },
+    {
+      "path": "VERSION",
+      "size": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "assets/architecture_cn.png",
+      "size": 278026,
+      "sha256": "630a6e82ac9c9d0f4d5426505749b6f921279777300f6f7a31f19dbe9e8c3871"
+    },
+    {
+      "path": "assets/life_cycle_cn.png",
+      "size": 231837,
+      "sha256": "d67d71499e5bceb48acbc9976b1e024f3af8dd1f82e52f2392ff16c85c4addad"
+    },
+    {
+      "path": "assets/twin_layers_cn.png",
+      "size": 238134,
+      "sha256": "48d315f08ead135ddde3b8f56afd9d77b7f0ede0e199e7d240e7f8bb6f99aaf1"
+    },
+    {
+      "path": "config/default_policy.json",
+      "size": 984,
+      "sha256": "27ee4beb1185cdee5b924f4da6436d3a67b6687f00fadf1c88baa455e68eb1e7"
+    },
+    {
+      "path": "data/sample_corpus.json",
+      "size": 9198,
+      "sha256": "abc71fb876a669c36aa647a5b778b72afd6ce3081cb1f1212da3a663f1f69a2f"
+    },
+    {
+      "path": "docs/段玉聪_DIKWP-ALIVE_TWIN_OS_科研数字生命人工意识与证据孪生系统_v1.0_CN_最终版.docx",
+      "size": 710603,
+      "sha256": "03379c37305630952e692d34929a29d0bcdbf338f5f28552fd4c6f010fca762f"
+    },
+    {
+      "path": "examples/demo_result.json",
+      "size": 11167,
+      "sha256": "e62e04ad2b4cac6e6c5f5c90b54c52a30962335af6fcf746e9a916c336740553"
+    },
+    {
+      "path": "prototype/index.html",
+      "size": 17364,
+      "sha256": "a5cd9ab5166070017b732ca9d8159d85f4b40751ac6f2c97053f81ac34ce234d"
+    },
+    {
+      "path": "references/SOURCE_SNAPSHOT_CN.md",
+      "size": 5555,
+      "sha256": "fcee3788cd79b8fd848ec9a4e71aa8587771beeb212aac4d243aeee2a07b7b8f"
+    },
+    {
+      "path": "references/source_snapshot.json",
+      "size": 6765,
+      "sha256": "eac7344bee6a5383e7e25aa40fa66eafbc1069a6934483a5626b1ff5ba0a427f"
+    },
+    {
+      "path": "runtime/alive_twin_runtime.py",
+      "size": 13759,
+      "sha256": "912021cf37c28fb6bfdc15fca773edc020639cd61e91ce06ca2a817c15297fcd"
+    },
+    {
+      "path": "schemas/artifact_card.schema.json",
+      "size": 1237,
+      "sha256": "fe9c9e1c9a3aa30960274e8ec840bbae03af140962bfaf9c8c0b82b6d95553ab"
+    },
+    {
+      "path": "schemas/claim_gene.schema.json",
+      "size": 683,
+      "sha256": "d6f15cc0f3fbfc614c4b43bf7bc0d2ce17627ac418d16ab2811ab82672084221"
+    },
+    {
+      "path": "schemas/experiment_card.schema.json",
+      "size": 853,
+      "sha256": "da9d9ae15f6dc5626547ffbe81adb57593b4dfbead33db43640c3743e9fdf1de"
+    },
+    {
+      "path": "schemas/hypothesis_cell.schema.json",
+      "size": 785,
+      "sha256": "47704f8f9443ae1d52256937071b0d47dd0dbd0fa1b25bda1732415ed0a6c1fa"
+    },
+    {
+      "path": "schemas/lineage_event.schema.json",
+      "size": 843,
+      "sha256": "b80c2c9923ac99a11ffc3bd6e8f1c80075c5c799c42cc16c1affe3964e5b379a"
+    },
+    {
+      "path": "schemas/purpose_contract.schema.json",
+      "size": 855,
+      "sha256": "57fb21f5a9644b24a85d34ee3c2c9123f445a0388001af64a7a01aa115d7cfce"
+    },
+    {
+      "path": "schemas/twin_state.schema.json",
+      "size": 767,
+      "sha256": "94057e2cf0fff2fb55b03eb7c505083bca7d07dc75358119262d586b6c49b8ee"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "size": 2165,
+      "sha256": "13971b191e0d07b5a8ef4105dcd4f2d110c2e60c924211f887d1b779247e09c0"
+    }
+  ]
+}

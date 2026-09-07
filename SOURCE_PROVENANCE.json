@@ -1,0 +1,96 @@
+{
+  "schema": "dikwp-additive-source-preparation/v1",
+  "repository": "YucongDuan/DIKWP-ALIVE-TWIN-OS-v1.0",
+  "bulk_index": 82,
+  "baseline_commit": "7662bae3bd9ea617c063ab64e618534fc9cd4951",
+  "baseline_tree_url": "https://github.com/YucongDuan/DIKWP-ALIVE-TWIN-OS-v1.0/tree/7662bae3bd9ea617c063ab64e618534fc9cd4951",
+  "prepared_at": "2026-09-07T05:13:21.117162+00:00",
+  "status": "PREPARED_SOURCE_UNTESTED",
+  "archive_records": [
+    {
+      "original_archive_path": "DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN.zip",
+      "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-ALIVE-TWIN-OS-v1.0/7662bae3bd9ea617c063ab64e618534fc9cd4951/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN.zip",
+      "sha256": "617134849d08405badb7746f9d9fef19d2bfe8f590c02708804c38a29e093cf7",
+      "archive_bytes": 1361895,
+      "depth": 0,
+      "parent_archive": null,
+      "source_directory": "source-distribution/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN-ccdc9ffbc3/source",
+      "status": "PREPARED_UNTESTED",
+      "file_count": 27,
+      "expanded_bytes": 1557025,
+      "wrapper_directory_removed": "DIKWP_ALIVE_TWIN_OS_v1.0_CN",
+      "project_marker_directories": [
+        "."
+      ],
+      "source_files": [
+        "source-distribution/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN-ccdc9ffbc3/source/prototype/index.html",
+        "source-distribution/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN-ccdc9ffbc3/source/runtime/alive_twin_runtime.py",
+        "source-distribution/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN-ccdc9ffbc3/source/tests/test_runtime.py"
+      ],
+      "build_markers": [],
+      "test_markers": [
+        "source-distribution/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN-ccdc9ffbc3/source/tests/test_runtime.py"
+      ],
+      "license_paths": [
+        "source-distribution/DIKWP_ALIVE_TWIN_OS_Duan_Yucong_Research_Digital_Life_Twin_v1.0_CN-ccdc9ffbc3/source/LICENSE"
+      ],
+      "quarantined_workflows": [],
+      "secret_findings": []
+    }
+  ],
+  "blockers": [],
+  "test_status": "NOT_RUN",
+  "code_executed": false,
+  "preparation_tool": {
+    "pipeline_version": "1.3",
+    "pipeline_sha256": "34228db5c1096b75917f28a38597db58391c25eb7b12474a4eb01ca725b2e5a2",
+    "archive_safety_tool_sha256": "0823c9f48d4cbef435bc4ebae237160f0df729daa19fd894d66a70f311fc4737",
+    "normalizer_sha256": "e89ea55d49a044f3117e5f5b6b21c1032a9768f115f339bda907d76c943e20a4",
+    "related_repository_input_sha256": "27f19ab577696990a311162cca5e43bbbd2cb8e4f13ee5525240e1d3cd9211f4",
+    "recovery_7z_metadata_sha256": "33214a12abe7090df5bfeffe95c099034e4db9bbeddba8cd2b6dc9a60aed1a45",
+    "recovery_7z_converter_sha256": "a03c23186745442458b5755e3afc7d9795aef8c7c3aa03c14003ec3407e63b9d",
+    "limits": {
+      "max_entries": 20000,
+      "max_file_bytes": 103809024,
+      "max_total_bytes": 536870912,
+      "max_archive_bytes": 104857600,
+      "max_ratio": 200.0,
+      "max_path_depth": 64,
+      "max_path_bytes": 1024
+    },
+    "max_repository_expanded_bytes": 1073741824,
+    "max_nested_depth": 4,
+    "max_archives_per_repository": 64
+  },
+  "remote_write_performed": false,
+  "related_repositories": [
+    {
+      "name": "DIKWP-AEON-",
+      "url": "https://github.com/YucongDuan/DIKWP-AEON-"
+    },
+    {
+      "name": "DIKWP-IntentValue-LedgerOS-2026-V1",
+      "url": "https://github.com/YucongDuan/DIKWP-IntentValue-LedgerOS-2026-V1"
+    },
+    {
+      "name": "DIKWP-TruthSentinel-OS",
+      "url": "https://github.com/YucongDuan/DIKWP-TruthSentinel-OS"
+    },
+    {
+      "name": "DIKWP-VERITYWEAVE-v2.0.0",
+      "url": "https://github.com/YucongDuan/DIKWP-VERITYWEAVE-v2.0.0"
+    },
+    {
+      "name": "DIKWP-FraudShield-ActiveConsciousness-OS",
+      "url": "https://github.com/YucongDuan/DIKWP-FraudShield-ActiveConsciousness-OS"
+    }
+  ],
+  "totals": {
+    "expanded_bytes": 1557025,
+    "archives": 1,
+    "files": 27,
+    "source_files": 3,
+    "workflow_files": 0
+  },
+  "evidence_boundary": "Additive source visibility only; original code bytes preserved; no execution, license reassignment, certification, or remote write."
+}

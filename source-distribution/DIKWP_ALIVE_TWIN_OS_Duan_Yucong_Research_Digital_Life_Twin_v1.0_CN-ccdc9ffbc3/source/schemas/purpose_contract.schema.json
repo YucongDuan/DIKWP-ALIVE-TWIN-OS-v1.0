@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PurposeContract",
+  "type": "object",
+  "required": [
+    "id",
+    "version",
+    "mission",
+    "non_goals",
+    "authorized_actions",
+    "human_signature_required",
+    "kill_conditions"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "mission": {
+      "type": "string"
+    },
+    "non_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authorized_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_signature_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "kill_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

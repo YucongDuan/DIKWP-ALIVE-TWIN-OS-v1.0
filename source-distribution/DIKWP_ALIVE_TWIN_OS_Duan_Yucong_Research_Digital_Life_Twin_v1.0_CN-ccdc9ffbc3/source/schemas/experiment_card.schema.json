@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExperimentCard",
+  "type": "object",
+  "required": [
+    "id",
+    "hypothesis_id",
+    "question",
+    "design",
+    "measures",
+    "success",
+    "failure",
+    "reproducibility_pack",
+    "human_review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "hypothesis_id": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "design": {
+      "type": "string"
+    },
+    "measures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "success": {
+      "type": "string"
+    },
+    "failure": {
+      "type": "string"
+    },
+    "reproducibility_pack": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_review": {
+      "type": "boolean"
+    }
+  }
+}

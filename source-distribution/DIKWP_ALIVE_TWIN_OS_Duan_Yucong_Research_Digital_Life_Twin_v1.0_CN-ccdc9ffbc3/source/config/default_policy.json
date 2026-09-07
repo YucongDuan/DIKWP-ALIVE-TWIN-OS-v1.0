@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "default_mode": "dikwp_mesh_4_0_semantic_closure",
+  "public_corpus_only": true,
+  "output_layers": [
+    "documented",
+    "inferred",
+    "generated",
+    "authorized"
+  ],
+  "proof_thresholds": {
+    "private_draft": 0.45,
+    "public_hypothesis": 0.6,
+    "public_claim": 0.78,
+    "high_impact_action": 0.9
+  },
+  "workspace_limit": 3,
+  "weights": {
+    "reproducibility": 0.22,
+    "external_validation": 0.25,
+    "maintainability": 0.18,
+    "novelty": 0.15,
+    "purpose_fit": 0.2
+  },
+  "release_gates": [
+    "source_extracted",
+    "tests_pass",
+    "citation_map_complete",
+    "limitations_present",
+    "maintainer_assigned",
+    "release_tagged"
+  ],
+  "identity_rule": "The system must never present generated content as Yucong Duan’s personal statement unless a signed approval record exists.",
+  "high_impact_domains": [
+    "medical",
+    "legal",
+    "financial",
+    "employment",
+    "education_admission",
+    "public_safety"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HypothesisCell",
+  "type": "object",
+  "required": [
+    "id",
+    "statement",
+    "origin",
+    "evidence_gap",
+    "falsifier",
+    "priority",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "statement": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_gap": {
+      "type": "string"
+    },
+    "falsifier": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "status": {
+      "enum": [
+        "incubating",
+        "selected",
+        "tested",
+        "rejected",
+        "supported"
+      ]
+    }
+  }
+}

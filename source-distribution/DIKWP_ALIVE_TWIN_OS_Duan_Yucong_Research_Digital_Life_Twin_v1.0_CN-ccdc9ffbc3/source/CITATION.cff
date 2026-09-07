@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "DIKWP-ALIVE TWIN OS"
+message: "Cite the versioned system package and clearly distinguish documented statements, transparent inferences, generated hypotheses, and authorized actions."
+type: software
+version: 1.0.0
+date-released: 2026-07-15
+authors:
+  - name: "DIKWP-ALIVE TWIN OS Working Draft"
+abstract: "An evidence-grounded research-programme digital twin and digital-life reference architecture built around DIKWP semantic closure, lineage, falsifiable experiments, self-repair and bounded functional consciousness."
+license: Apache-2.0

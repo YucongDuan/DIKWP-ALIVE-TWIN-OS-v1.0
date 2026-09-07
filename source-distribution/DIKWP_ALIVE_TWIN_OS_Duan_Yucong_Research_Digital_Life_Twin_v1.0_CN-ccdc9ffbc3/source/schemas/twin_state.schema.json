@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TwinState",
+  "type": "object",
+  "required": [
+    "version",
+    "snapshot_date",
+    "metrics",
+    "workspace",
+    "contradictions",
+    "hypotheses",
+    "actions",
+    "identity_boundary",
+    "result_hash"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "snapshot_date": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "workspace": {
+      "type": "array"
+    },
+    "contradictions": {
+      "type": "array"
+    },
+    "hypotheses": {
+      "type": "array"
+    },
+    "actions": {
+      "type": "array"
+    },
+    "identity_boundary": {
+      "type": "string"
+    },
+    "result_hash": {
+      "type": "string"
+    }
+  }
+}

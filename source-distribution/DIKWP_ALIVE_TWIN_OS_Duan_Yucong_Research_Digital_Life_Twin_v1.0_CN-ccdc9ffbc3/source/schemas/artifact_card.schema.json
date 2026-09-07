@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ArtifactCard",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "kind",
+    "year",
+    "theme",
+    "source_id",
+    "proof",
+    "reproducibility",
+    "external_validation",
+    "maintainability",
+    "novelty",
+    "purpose_fit",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "proof": {
+      "type": "string"
+    },
+    "reproducibility": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "external_validation": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "maintainability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "novelty": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "purpose_fit": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
